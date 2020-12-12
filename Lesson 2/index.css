@@ -1,0 +1,37 @@
+table
+{
+    border-collapse: collapse;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+td {padding: 120px 200px;
+border: 2px solid black;}
+tr{
+    border: 1px solid rgb(197, 6, 6);
+}
+.Logo
+{
+    background-color: orange;
+}
+.Menu
+{
+    background-color: orangered;
+}
+.News{
+    background-color: peru;
+    color: white;
+}
+
+.smtgh
+{
+    background-color: orange;
+}
+.Bar{
+    background-color: black;
+    color: blanchedalmond;
+    width: 40%;
+}
+.Footer{
+    background-color: orange;
+}
