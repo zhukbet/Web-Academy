@@ -10,28 +10,28 @@ border: 2px solid black;}
 tr{
     border: 1px solid rgb(197, 6, 6);
 }
-.Logo
+.logo
 {
     background-color: orange;
 }
-.Menu
+.menu
 {
     background-color: orangered;
 }
-.News{
+.news{
     background-color: peru;
     color: white;
 }
 
-.smtgh
+.list
 {
     background-color: orange;
 }
-.Bar{
+.bar{
     background-color: black;
     color: blanchedalmond;
     width: 40%;
 }
-.Footer{
+.footer{
     background-color: orange;
 }
