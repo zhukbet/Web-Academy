@@ -1,0 +1,235 @@
+body {
+    font-family: Roboto;
+
+    display: flex;
+}
+
+.day-view {
+    padding: 80px 140px;
+    flex: 1535 0 0;
+}
+
+.aside {
+   box-sizing: border-box;
+    width: 800px;
+    padding: 84px 100px 341px;
+    flex: 802 0 0;
+    background: rgba(42, 46, 65, 0.7);
+    color: #FFFFFF;
+    
+}
+
+.separation {
+    display: block;
+    box-sizing: border-box;
+    margin-top: 85px;
+    border: 0;
+    height: 4px;
+
+    position: relative;
+}
+
+.separation::before {
+    content: '';
+
+    display: block;
+    box-sizing: border-box;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+
+    background: rgba(0, 0, 0, 0.17);
+}
+
+.separation::after {
+    content: '';
+
+    display: block;
+    box-sizing: border-box;
+
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 50%;
+
+    background: rgba(255, 255, 255, 0.12);
+}
+
+.day-view__title {
+    display: flex;
+
+    padding-bottom: 90px;
+
+    border-bottom: 2px solid #F3F3F3;
+}
+
+.day-view__day-text {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+
+    color: #243D6F;
+}
+
+.day-view__time-list {
+    list-style: none;
+    padding: 100px 0 0;
+    margin: 0;
+}
+
+.day-view__time-row {
+    position: relative;
+
+    display: block;
+
+    height: 120px;
+
+    margin-left: 135px;
+
+    border-bottom: 2px solid #F3F3F3;
+
+    box-sizing: border-box;
+
+    z-index: 1;
+}
+
+.day-view__time-key {
+    position: absolute;
+    top: 0;
+    left: -135px;
+
+    transform: translateY(-50%);
+
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 30px;
+
+
+    color: #A4B0C3;
+
+}
+
+.day-view__event {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    padding: 12px 75px;
+
+    background: rgba(133, 118, 237, 0.15);
+    border-left: 6px solid #8576ED;
+
+    box-sizing: border-box;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 33px;
+
+    color: #243D6F;
+
+    z-index: 10;
+}
+
+.day-view__event--workshop {
+    background: rgba(61, 131, 249, 0.15);
+    border-color: #3D83F9;
+}
+
+.day-view__event--management {
+    background: rgba(238, 165, 124, 0.15);
+    border-color: #EEA57C;
+}
+.head{
+    padding: 84px 100px 84px 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.month-previous{
+    width: 18px;
+    height: 36px;
+    
+    border: 2px solid #FFFFFF;
+}
+.main-month{
+width: 320px;
+height: 43px;
+font-size: 0.85em;
+line-height: 1.16em;
+text-align: center;
+}
+.month-next{
+    width: 18px;
+    height: 36px;
+    
+    border: 2px solid #FFFFFF;
+}
+
+.week
+{
+margin-top: 22px;
+}
+.weekdays{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around
+    
+}
+
+.alldays{
+    margin-top: 92px;
+}
+.days{
+    width: 427px;
+    margin: 0 auto;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+    list-style: none;
+    font-size: 0.85em;
+    line-height: 1.17em;
+}
+.days{
+    margin-bottom: 90px;
+    flex: 0 0 11%
+}
+.main-day{
+    background: #3C82F9;
+}
+.categoris{
+    margin-top: 107px;
+}
+.categoriesof_the_day{
+    margin-top: 40px;
+    box-sizing: border-box;
+    width: 285px;
+height: 80px;
+padding: 20px;
+    display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   border-radius: 12px;
+   font-weight: 500;
+font-size: 22px;
+line-height: 26px;
+text-align: center;
+}
+.finance{
+    background: #8576ED;
+}
+.managment{
+    background: #F39946;
+}
+.design{
+    background: #FF467E;
+}
