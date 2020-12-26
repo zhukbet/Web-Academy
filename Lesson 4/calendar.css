@@ -169,19 +169,30 @@ body {
 }
 
 .mmounthView__calenarTable{
-    position: relative;
-    width: 100px;
-    height: 20px;
+    flex: 1 0 0 ;
+  width: 100%;
+  max-height: 500px;
+   box-sizing: border-box;
+  padding: 20px 0;
 }
 .mounthView__calenarTable{
     font-weight: 300;
     font-size: 13px;
+    
 }
-.today:hover{
-    width: 30px;
-height: 25px;
-background: #3C82F9;
+td{
+    width: 50px;
+  text-align: center;
 }
+tr{
+    height: 50px;
+    padding: auto;
+  }
+  
+td:hover{
+    border-radius: 100%;
+    background-color: #3C82F9;
+  }
 .separationsecond{
     margin-top: 100px;
     background: #000000;
