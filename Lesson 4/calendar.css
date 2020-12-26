@@ -160,14 +160,9 @@ body {
 .separation{
     margin-top: 85px;
 }
-.weekdays{
-    margin-top: 20px;
-    display: flex;
-    list-style: none;
-    justify-content: space-between;
-  color: rgba(255, 255, 255, 0.6);
+.mounthView__week{
+    color: rgb(165, 163, 163);
 }
-
 .mmounthView__calenarTable{
     flex: 1 0 0 ;
   width: 100%;
