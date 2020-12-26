@@ -167,32 +167,15 @@ body {
     justify-content: space-between;
   color: rgba(255, 255, 255, 0.6);
 }
-.alldays{
-    margin-top: 48px;
-    font-weight: 500;
-    font-size: 26px;
-    flex: 0 0 14%;
-    text-align: center;
 
-}
-.monthdays{
+.mmounthView__calenarTable{
     position: relative;
     width: 100px;
     height: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    align-items: center;
-    list-style: none;
 }
-.monthdays{
+.mounthView__calenarTable{
     font-weight: 300;
     font-size: 13px;
-}
-.monthdays:nth-child(31)~* {
-    text-align: center;
 }
 .today:hover{
     width: 30px;
@@ -215,7 +198,7 @@ font-size: 20px;
 line-height: 15px;
 }
 .plants{
-    margin-top: px;
+    margin-top: 30px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
